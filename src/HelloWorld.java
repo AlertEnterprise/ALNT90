@@ -6,8 +6,8 @@
 import java.io.*;
 import java.text.*;
 import java.util.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
+//import javax.servlet.*;
+//import javax.servlet.http.*;
 
 /**
  * The Hello World Servelet.
@@ -17,9 +17,12 @@ import javax.servlet.http.*;
  * deepak@roseindia.net
  */
 
-public class HelloWorld extends HttpServlet {
+public class HelloWorld { //extends HttpServlet {
 
-
+	public static void main(String args[]) {
+		System.out.println("Hai Sunny. I am fine.....!!!");
+	}
+/*
     public void service(HttpServletRequest request,
                       HttpServletResponse response)
         throws IOException, ServletException
@@ -37,6 +40,7 @@ public class HelloWorld extends HttpServlet {
         out.println("</body>");
         out.println("</html>");
     }
+*/
 }
 
 
